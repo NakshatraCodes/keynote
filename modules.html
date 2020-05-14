@@ -44,6 +44,13 @@
 
     .storage{
       box-shadow: 0 4px 6px rgba(0,0,0,0.25), 0 4px 5px rgba(0,0,0,0.22) !important;
+      display: flex; 
+      flex-direction: row; 
+      align-items: center;
+    }
+
+    .storage a{
+      justify-content: right;
     }
 
   </style>
@@ -264,18 +271,115 @@
           </div>
           <!-- Module List Group Ends -->
 
-          <center><h4 class="text-gray-300 my-5">Other Relevant Data</h4></center>
+          <center><h4 class="text-gray-200 my-5">Other Relevant Data</h4></center>
 
           <ul class="list-group">
-            <!-- <li class="list-group-item storage"><i class="far fa-file-pdf text-danger mr-3 fa-2x"></i>One</li> -->
-            <li class="list-group-item storage"><i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>Hardness and its determination (EDTA method only)</li>
-            <!-- <li class="list-group-item storage"><i class="far fa-file-powerpoint text-warning mr-3 fa-2x"></i>Three</li> -->
-            <li class="list-group-item storage"><i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>Solid fuels - Proximate and ultimate analysis</li>
-            <!-- <li class="list-group-item storage"><i class="far fa-file-word text-primary mr-3 fa-2x"></i>Two</li> -->
-            <li class="list-group-item storage"><i class="fas fa-file-word text-primary mr-3 fa-2x"></i>Corrosion: Introduction, Mechanism of dry and wet corrosion</li>
-            <li class="list-group-item storage"><i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>Factors influencing corrosion</li>
-            <li class="list-group-item storage"><i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>Chemical structure related to Lubrication</li>
-            <li class="list-group-item storage"><i class="fas fa-file-word text-primary mr-3 fa-2x"></i>Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Hardness and its determination (EDTA method only)</p>
+              <a href="#" class="btn btn-primary">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
+              <a href="#" class="btn btn-info">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Corrosion: Introduction, Mechanism of dry and wet corrosion</p>
+              <a href="#" class="btn btn-success">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Factors influencing corrosion</p>
+              <a href="#" class="btn btn-danger">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Chemical structure related to Lubrication</p>
+              <a href="#" class="btn btn-warning">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</p>
+              <a href="#" class="btn btn-secondary">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-group-item storage">
+              <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
+              <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
+              <a href="#" class="btn btn-dark">
+                <span class="icon text-white">
+                  <i class="fas fa-download"></i>
+                </span>
+              </a>
+              <a href="#" class="btn btn-danger ml-2">
+                <span class="icon text-white">
+                  <i class="fas fa-trash-alt"></i>
+                </span>
+              </a>
+            </li>
+
           </ul>
 
         </div>
