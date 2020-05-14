@@ -14,7 +14,7 @@
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+  <script src="vendor/jquery/jquery.min.js" type="javascript"></script>
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
   <style type="text/css">
@@ -38,7 +38,13 @@
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
       background-color: #cecfcc;
     }
+    .list-group li:nth-child(2n){
+      background-color: #eaecf4 !important;
+    }
 
+    .storage{
+      box-shadow: 0 4px 6px rgba(0,0,0,0.25), 0 4px 5px rgba(0,0,0,0.22) !important;
+    }
 
   </style>
 
@@ -155,7 +161,7 @@
 
           <!-- A Module List Group -->
           <div class="card shadow" style="border: none; margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse1" style="text-decoration: none;">
+            <a data-toggle="collapse" href="#collapse1" id='collapseList' style="text-decoration: none;">
               <div class="card-header">
                 <h4 class="panel-title m-0" >
                   Module 1
@@ -164,6 +170,14 @@
             </a>
             <div id="collapse1" style="border: none;" class="panel-collapse collapse">
               <ul class="list-group">
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
+                <li class="list-group-item">One</li>
+                <li class="list-group-item">Two</li>
                 <li class="list-group-item">One</li>
                 <li class="list-group-item">Two</li>
                 <li class="list-group-item list-group-item-info">Three</li>
@@ -188,18 +202,6 @@
                 <li class="list-group-item">One</li>
                 <li class="list-group-item">Two</li>
                 <li class="list-group-item list-group-item-info">Three</li>
-                <form> 
-                  <div class="form-row" >
-                    <div class="col-11 m-0 pr-0">
-                      <input style="min-height: 48px;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div> 
-                    <div class="col-auto m-0 p-0">
-                      <a href="#" class="p-2 btn btn-success" style="border-radius: 0px; min-height: 100%;">
-                        <i class="fas fa-check"></i>
-                      </a> 
-                    </div>
-                  </div> 
-                </form>
               </ul>
             </div>
           </div>
@@ -262,13 +264,17 @@
           </div>
           <!-- Module List Group Ends -->
 
-          <center><h4 class="text-gray-300 my-5">Data</h4></center>
+          <center><h4 class="text-gray-300 my-5">Other Relevant Data</h4></center>
 
-          <div class="row">
-            <div class="col-xl-4">
-              <iframe style="width: inherit; height: 100%;" src="https://www.youtube.com/embed/Hm8dB80PEUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>  
-          </div>
+          <ul class="list-group">
+            <!-- <li class="list-group-item storage"><i class="far fa-file-pdf text-danger mr-3 fa-2x"></i>One</li> -->
+            <li class="list-group-item storage"><i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>Two</li>
+            <!-- <li class="list-group-item storage"><i class="far fa-file-powerpoint text-warning mr-3 fa-2x"></i>Three</li> -->
+            <li class="list-group-item storage"><i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>One</li>
+            <!-- <li class="list-group-item storage"><i class="far fa-file-word text-primary mr-3 fa-2x"></i>Two</li> -->
+            <li class="list-group-item storage"><i class="fas fa-file-word text-primary mr-3 fa-2x"></i>Three</li>
+          </ul>
+
         </div>
       <!-- End of Main Content -->
 
