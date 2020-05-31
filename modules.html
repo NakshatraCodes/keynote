@@ -17,6 +17,8 @@
   <script src="vendor/jquery/jquery.min.js" type="javascript"></script>
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
+  <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+
   <style type="text/css">
     
 
@@ -123,14 +125,9 @@
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <div class="row">
-                  <div class="col-lg-4">
-                    <div class="img-profile-big ml-3 mt-2 mb-3">
-                    <img class="img-profile-big rounded-circle" src="https://source.unsplash.com/TJVDji1_In4/60x60">
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="mx-auto my-auto">
-                      <span class="mx-auto d-none d-lg-inline text-gray-800">Nakshatra</span>
+                  <div class="col-12">
+                    <div class="img-profile-big mx-auto mt-2 mb-3">
+                    <img class="img-profile-big rounded-circle" src="https://source.unsplash.com/eSjmZW97cH8/60x60">
                     </div>
                   </div>
                 </div>
@@ -162,244 +159,246 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid py-5" style=" max-width: 85%; margin-left: auto; margin-right: auto;">
+    
+          <center><h1 class="text-gray-100 mb-3 text-uppercase">Chemsitry AC101</h1></center>
+
+          <section class='m-0 p-0' id='modules'>
+            <center><h4 class="text-gray-200 mb-5">All Modules</h4></center>
+
+            <!-- A Module List Group -->
+            <div class="card shadow" style="border: none; margin-bottom: 1rem;">
+              <a data-toggle="collapse" href="#collapse1" id='collapseList' style="text-decoration: none;">
+                <div class="card-header">
+                  <h4 class="panel-title m-0" >
+                    Water Technology
+                  </h4>
+                </div>
+              </a>
+              <div id="collapse1" style="border: none;" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Introduction- Water Technology</li>
+                  <li class="list-group-item">Specifications of water</li>
+                  <li class="list-group-item">Hardness and its determination (EDTA method only)</li>
+                  <li class="list-group-item">Alkalinity</li>
+                  <li class="list-group-item">Boiler feed water Boiler problems – scale & sludge- Causes and Prevention</li>
+                  <li class="list-group-item">Priming & Foaming & Carry Over : causes & prevention</li>
+                  <li class="list-group-item">Caustic embitterment & Corrosion: causes & prevention</li>
+                  <li class="list-group-item">Water softening processes- Internal & External Treatment</li>
+                  <li class="list-group-item">External Treatment: Lime Soda Process</li>
+                  <li class="list-group-item">Zeolite or Permutit Process Ion Exchange Process</li>
+                  <li class="list-group-item">Internal Treatment: Carbonate, Phosphate conditioning, Colloidal conditioning, Calgon treatment</li>
+                  <li class="list-group-item">Water for domestic use</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Module List Group Ends -->
+
+            <!-- A Module List Group -->
+            <div class="card shadow" style="border: none; margin-bottom: 1rem;">
+              <a data-toggle="collapse" href="#collapse2" style="text-decoration: none;">
+                <div class="card-header">
+                  <h4 class="panel-title m-0" >
+                    Fuels
+                  </h4>
+                </div>
+              </a>
+              <div id="collapse2" style="border: none;" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Classification- Fuels</li>
+                  <li class="list-group-item">Calorific value of fuel, (gross and net)</li>
+                  <li class="list-group-item">Determination of calorific value of fuel</li>
+                  <li class="list-group-item">Bomb calorimeter</li>
+                  <li class="list-group-item">Solid fuels - Proximate and ultimate analysis</li>
+                  <li class="list-group-item">Octane & Cetane No. and its significance</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Module List Group Ends -->
+
+            <!-- A Module List Group -->
+            <div class="card shadow" style="border: none; margin-bottom: 1rem;">
+              <a data-toggle="collapse" href="#collapse3" style="text-decoration: none;">
+                <div class="card-header">
+                  <h4 class="panel-title m-0" >
+                    Lubricants
+                  </h4>
+                </div>
+              </a>
+              <div id="collapse3" style="border: none;" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Introduction: Lubricants, Mechanism of Lubrication</li>
+                  <li class="list-group-item">Types of Lubricants</li>
+                  <li class="list-group-item">Chemical structure related to Lubrication</li>
+                  <li class="list-group-item">Properties of lubricants</li>
+                  <li class="list-group-item">Viscosity and Viscosity Index Iodine Value, Aniline Point, Emulsion number</li>
+                  <li class="list-group-item">Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</li>
+                  <li class="list-group-item">Selection of Lubricants</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Module List Group Ends -->
+
+            <!-- A Module List Group -->
+            <div class="card shadow" style="border: none;  margin-bottom: 1rem;">
+              <a data-toggle="collapse" href="#collapse4" style="text-decoration: none;">
+                <div class="card-header">
+                  <h4 class="panel-title m-0" >
+                    Spectroscopy
+                  </h4>
+                </div>
+              </a>
+              <div id="collapse4" style="border: none;" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Introduction; Principles of spectroscopy, Laws of absorbance</li>
+                  <li class="list-group-item">IR : Principle, Instrumentation, Application</li>
+                  <li class="list-group-item">UV: Principle, Instrumentation, Applications</li>
+                  <li class="list-group-item">NMR: Principle, Instrumentation, Applications</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Module List Group Ends -->
+
+            <!-- A Module List Group -->
+            <div class="card shadow" style="border: none; margin-bottom: 1rem;">
+              <a data-toggle="collapse" href="#collapse5" style="text-decoration: none;">
+                <div class="card-header">
+                  <h4 class="panel-title m-0" >
+                    Corrosion
+                  </h4>
+                </div>
+              </a>
+              <div id="collapse5" style="border: none;" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item">Corrosion: Introduction, Mechanism of dry and wet corrosion</li>
+                  <li class="list-group-item">Types of corrosion-Galvanic, Concentration cell</li>
+                  <li class="list-group-item">Soil & Pitting Intergranular, Waterline, Passivity</li>
+                  <li class="list-group-item">Factors influencing corrosion</li>
+                  <li class="list-group-item">Corrosion control</li>
+                </ul>
+              </div>
+            </div>
+          <!-- Module List Group Ends -->
+
+          </section>
           
-          <center><h1 class="text-gray-100 mb-3">Chemsitry AC101</h1></center>
-          <center><h4 class="text-gray-200 mb-5">All Modules</h4></center>
+          <section class='m-0 p-0' id='storage'>
+            <center><h4 class="text-gray-200 my-5">Other Relevant Data</h4></center>
 
-          <!-- A Module List Group -->
-          <div class="card shadow" style="border: none; margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse1" id='collapseList' style="text-decoration: none;">
-              <div class="card-header">
-                <h4 class="panel-title m-0" >
-                  Water Technology
-                </h4>
-              </div>
-            </a>
-            <div id="collapse1" style="border: none;" class="panel-collapse collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Introduction- Water Technology</li>
-                <li class="list-group-item">Specifications of water</li>
-                <li class="list-group-item">Hardness and its determination (EDTA method only)</li>
-                <li class="list-group-item">Alkalinity</li>
-                <li class="list-group-item">Boiler feed water Boiler problems – scale & sludge- Causes and Prevention</li>
-                <li class="list-group-item">Priming & Foaming & Carry Over : causes & prevention</li>
-                <li class="list-group-item">Caustic embitterment & Corrosion: causes & prevention</li>
-                <li class="list-group-item">Water softening processes- Internal & External Treatment</li>
-                <li class="list-group-item">External Treatment: Lime Soda Process</li>
-                <li class="list-group-item">Zeolite or Permutit Process Ion Exchange Process</li>
-                <li class="list-group-item">Internal Treatment: Carbonate, Phosphate conditioning, Colloidal conditioning, Calgon treatment</li>
-                <li class="list-group-item">Water for domestic use</li>
+            <ul class="list-group">
 
-                <button style="min-height: 48px; padding: 0px; border: none; margin: 0px;" class="btn-danger" id='addBtn' onclick="addInputField()">Add a Topic</button>
-                
-              </ul>
-            </div>
-          </div>
-          <!-- Module List Group Ends -->
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Hardness and its determination (EDTA method only)</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <!-- A Module List Group -->
-          <div class="card shadow" style="border: none; margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse2" style="text-decoration: none;">
-              <div class="card-header">
-                <h4 class="panel-title m-0" >
-                  Fuels
-                </h4>
-              </div>
-            </a>
-            <div id="collapse2" style="border: none;" class="panel-collapse collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Classification- Fuels</li>
-                <li class="list-group-item">Calorific value of fuel, (gross and net)</li>
-                <li class="list-group-item">Determination of calorific value of fuel</li>
-                <li class="list-group-item">Bomb calorimeter</li>
-                <li class="list-group-item">Solid fuels - Proximate and ultimate analysis</li>
-                <li class="list-group-item">Octane & Cetane No. and its significance</li>
-                <button style="min-height: 48px; padding: 0px; border: none; margin: 0px;" class="btn-danger" id='addBtn' onclick="addInputField()">Add a Topic</button>
-              </ul>
-            </div>
-          </div>
-          <!-- Module List Group Ends -->
+              <li class="list-group-item storage">
+                <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <!-- A Module List Group -->
-          <div class="card shadow" style="border: none; margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse3" style="text-decoration: none;">
-              <div class="card-header">
-                <h4 class="panel-title m-0" >
-                  Lubricants
-                </h4>
-              </div>
-            </a>
-            <div id="collapse3" style="border: none;" class="panel-collapse collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Introduction: Lubricants, Mechanism of Lubrication</li>
-                <li class="list-group-item">Types of Lubricants</li>
-                <li class="list-group-item">Chemical structure related to Lubrication</li>
-                <li class="list-group-item">Properties of lubricants</li>
-                <li class="list-group-item">Viscosity and Viscosity Index Iodine Value, Aniline Point, Emulsion number</li>
-                <li class="list-group-item">Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</li>
-                <li class="list-group-item">Selection of Lubricants</li>
-                <button style="min-height: 48px; padding: 0px; border: none; margin: 0px;" class="btn-danger" id='addBtn' onclick="addInputField()">Add a Topic</button>
-              </ul>
-            </div>
-          </div>
-          <!-- Module List Group Ends -->
+              <li class="list-group-item storage">
+                <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Corrosion: Introduction, Mechanism of dry and wet corrosion</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <!-- A Module List Group -->
-          <div class="card shadow" style="border: none;  margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse4" style="text-decoration: none;">
-              <div class="card-header">
-                <h4 class="panel-title m-0" >
-                  Spectroscopy
-                </h4>
-              </div>
-            </a>
-            <div id="collapse4" style="border: none;" class="panel-collapse collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Introduction; Principles of spectroscopy, Laws of absorbance</li>
-                <li class="list-group-item">IR : Principle, Instrumentation, Application</li>
-                <li class="list-group-item">UV: Principle, Instrumentation, Applications</li>
-                <li class="list-group-item">NMR: Principle, Instrumentation, Applications</li>
-                <button style="min-height: 48px; padding: 0px; border: none; margin: 0px;" class="btn-danger" id='addBtn' onclick="addInputField()">Add a Topic</button>
-              </ul>
-            </div>
-          </div>
-          <!-- Module List Group Ends -->
+              <li class="list-group-item storage">
+                <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Factors influencing corrosion</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <!-- A Module List Group -->
-          <div class="card shadow" style="border: none; margin-bottom: 1rem;">
-            <a data-toggle="collapse" href="#collapse5" style="text-decoration: none;">
-              <div class="card-header">
-                <h4 class="panel-title m-0" >
-                  Corrosion
-                </h4>
-              </div>
-            </a>
-            <div id="collapse5" style="border: none;" class="panel-collapse collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Corrosion: Introduction, Mechanism of dry and wet corrosion</li>
-                <li class="list-group-item">Types of corrosion-Galvanic, Concentration cell</li>
-                <li class="list-group-item">Soil & Pitting Intergranular, Waterline, Passivity</li>
-                <li class="list-group-item">Factors influencing corrosion</li>
-                <li class="list-group-item">Corrosion control</li>
-                <button style="min-height: 48px; padding: 0px; border: none; margin: 0px;" class="btn-danger" id='addBtn' onclick="addInputField()">Add a Topic</button>
-              </ul>
-            </div>
-          </div>
-          <!-- Module List Group Ends -->
+              <li class="list-group-item storage">
+                <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Chemical structure related to Lubrication</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <center><h4 class="text-gray-200 my-5">Other Relevant Data</h4></center>
+              <li class="list-group-item storage">
+                <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-          <ul class="list-group">
+              <li class="list-group-item storage">
+                <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
+                <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
+                <a href="#" class="btn btn-primary">
+                  <span class="icon text-white">
+                    <i class="fas fa-download"></i>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-danger ml-2">
+                  <span class="icon text-white">
+                    <i class="fas fa-trash-alt"></i>
+                  </span>
+                </a>
+              </li>
 
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Hardness and its determination (EDTA method only)</p>
-              <a href="#" class="btn btn-primary">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
+            </ul>
+          </section>
+          
+          <section class='m-0 p-0' id='videoResources' style="min-height: 75vh;">
+            <center><h4 class="text-gray-200 my-5">Video Resources</h4></center>
+          </section>
 
-            <li class="list-group-item storage">
-              <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
-              <a href="#" class="btn btn-info">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-            <li class="list-group-item storage">
-              <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Corrosion: Introduction, Mechanism of dry and wet corrosion</p>
-              <a href="#" class="btn btn-success">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-            <li class="list-group-item storage">
-              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Factors influencing corrosion</p>
-              <a href="#" class="btn btn-danger">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-            <li class="list-group-item storage">
-              <i class="fas fa-file-pdf text-danger mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Chemical structure related to Lubrication</p>
-              <a href="#" class="btn btn-warning">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-            <li class="list-group-item storage">
-              <i class="fas fa-file-word text-primary mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Flash Point, Fire Point, Drop Point, Cloud Point, Pour Point</p>
-              <a href="#" class="btn btn-secondary">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-            <li class="list-group-item storage">
-              <i class="fas fa-file-powerpoint text-warning mr-3 fa-2x"></i>
-              <p class="m-0 p-0 flex-grow-1">Solid fuels - Proximate and ultimate analysis</p>
-              <a href="#" class="btn btn-dark">
-                <span class="icon text-white">
-                  <i class="fas fa-download"></i>
-                </span>
-              </a>
-              <a href="#" class="btn btn-danger ml-2">
-                <span class="icon text-white">
-                  <i class="fas fa-trash-alt"></i>
-                </span>
-              </a>
-            </li>
-
-          </ul>
-
-          <center><h4 class="text-gray-200 my-5">Video Resources</h4></center>
-
+        
         </div>
       <!-- End of Main Content -->
 
