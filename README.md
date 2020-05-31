@@ -13,7 +13,7 @@ These are some snapshots of the overall look of the app.
 
 ### Subjects Page
 
-![Modules-KeyNote](https://github.com/NakshatraCodes/keynote/blob/master/preview/subjectsPrototype.png)
+![Modules-KeyNote](https://github.com/NakshatraCodes/keynote/blob/master/preview/subjectsProtoype.png)
 
 
 ### Modules Page
